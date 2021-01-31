@@ -1,6 +1,6 @@
 .tabBar{
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -11,6 +11,11 @@
     color:#ffffff;
     font-size: 15px;
     z-index: 99;
+    background-color: black;
+}
+a{
+    color:#ffffff;
+    text-decoration:none;
 }
 .tabBar .item{
     text-align: center;

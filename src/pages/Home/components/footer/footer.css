@@ -1,0 +1,30 @@
+.info-bar{
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.info-bar .item{
+    color: #ffffff;
+    padding: 5px 0;
+    display: flex;
+}
+.info-bar .item .iconyinfu2{
+    font-size: 23px;
+}
+.info-bar .item .music-name{
+    width: 220px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.info-bar .item .music-name span{
+    display: inline-block;
+    animation: scroll 5s linear infinite
+}
+.info-bar .item .music-name span::after{
+    content: attr(data-text);
+    margin-left:20px;
+}
+@keyframes scroll {
+    from{transform: translateX(0)}
+    to{transform: translateX(calc(-50% - 20px))}
+}

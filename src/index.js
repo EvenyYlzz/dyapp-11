@@ -8,11 +8,14 @@ import Add from './pages/Add'
 import Me from './pages/Me'
 import Message from './pages/Message'
 import TabBar from './components/tabBar'
+import TopBar from './components/topBar'
+import './assets/icon-fonts/iconfont.css'
 
 ReactDOM.render(
   <div>
     <div>
       <HashRouter>
+        <TopBar />
         <TabBar />
         <Redirect to='/home' />
         <Route path="/home" exact component={Home}></Route>
