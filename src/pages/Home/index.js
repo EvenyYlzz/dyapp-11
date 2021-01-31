@@ -7,7 +7,7 @@ import Footer from './components/footer'
 import 'video-react/dist/video-react.css';
 import { Player,ControlBar } from 'video-react';
 import { Carousel, WingBlank } from 'antd-mobile';
-//  测试连接
+
 function Home() {
   let dataList = [
     {
